@@ -1,10 +1,13 @@
 #include <stdio.h>
-/**
- * main - Function begins
- * Return: Function ends
- */
-int main(void)
-{
-	write(2, "and that piece of art is useful" - Dora Korpar, 2015-10-19\n", 59);
+#include <stdlib.h>
+
+int main () {
+	FILE * fp;
+
+	fp = fopen ("file.txt", "w+");
+	fprintf(fp, "%s %s %s %d", "We", "are", "in", 2012);
+
+	fclose(fp);
+
 	return(1);
 }
