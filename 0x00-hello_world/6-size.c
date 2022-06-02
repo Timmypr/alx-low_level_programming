@@ -3,7 +3,6 @@
  * main - Function starts
  *
  * Return: Function ends
- *
  */
 int main(void)
 {
