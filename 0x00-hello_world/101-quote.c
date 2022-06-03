@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <unistd.h>
+
 /**
- * main - Function begins
- * Return: Function ends
+ * main - prints exactly "and that piece of art is useful"
+ * Return:Always 0 (Success)
  */
 int main(void)
 {
