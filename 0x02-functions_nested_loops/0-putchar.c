@@ -1,10 +1,9 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- *main - Print the word "_putchar"
+ *main - Entry point
  *
- *Return: Always 0 (Success)
+ *Return: nothing, return void
  */
 
 int main(void)
