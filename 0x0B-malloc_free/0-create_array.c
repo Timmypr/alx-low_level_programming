@@ -21,7 +21,7 @@ buffer = (char *) malloc(size * sizeof(c));
 
 if (buffer == 0)
 {
-if (buffer == 0)
+return (NULL);
 }
 
 else
